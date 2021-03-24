@@ -11,7 +11,7 @@ export default function Home() {
         >
           <h1>Joel Adving | Protfolio v3</h1>
         </a>
-        <p className="text-gray-500 mx-auto mt-4 text-center">Coming Soon</p>
+        <p className="text-gray-500 mx-auto mt-4 text-center">Coming Soon...</p>
       </div>
     </>
   )

@@ -2,11 +2,12 @@ import { useState } from 'react'
 
 export default function Home() {
   const [header, setHeader] = useState(false)
+
   const changeBackground = () => {
-    console.log(window.scrollY)
+    // if(window.scrollY >= 50 )
   }
 
-  window.addEventListener('scroll', changeBackground)
+  // window.addEventListener('scroll', changeBackground)
 
   return (
     <div className="flex flex-col bg-black">

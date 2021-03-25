@@ -11,14 +11,38 @@ body {
 }
 
 header {
-  background: transparent;
+  z-index: 20;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  justify-content: center;
 }
 
 header.active {
   @apply bg-white;
+  @apply ease-in;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-weight: 500;
+  width: 100%;
+}
+
+ul.active {
   @apply text-black;
 }
 
-header > nav > ul.active {
+h3 {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-weight: 500;
+}
+
+h3.active {
   @apply text-black;
 }

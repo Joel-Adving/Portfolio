@@ -1,13 +1,19 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Home() {
   const [header, setHeader] = useState(false)
 
   const changeBackground = () => {
-    // if(window.scrollY >= 50 )
+    if (window.scrollY >= 80) {
+      setHeader(true)
+    } else {
+      setHeader(false)
+    }
   }
 
-  // window.addEventListener('scroll', changeBackground)
+  useEffect(() => {
+    window.addEventListener('scroll', changeBackground)
+  }, [])
 
   return (
     <div className="flex flex-col bg-black">
@@ -16,37 +22,47 @@ export default function Home() {
         autoPlay
         loop
         muted
-        class="object-cover w-screen h-screen fixed opacity-50"
+        class="object-cover w-screen h-screen fixed opacity-60"
       >
         <source src="background.mp4" type="video/mp4" />
         Your browser does not support the video tag
       </video>
 
       {/* Header */}
-      <header className="flex fixed w-screen top-0 z-20 justify-center animated">
-        <div className="flex flex-row w-8/12 justify-between items-center py-4">
+      <header
+        class={header ? 'header active' : 'header'}
+        className="bg-green-500 flex sm:visible invisible"
+      >
+        <div className="flex flex-row md:w-8/12 sm:justify-between items-center justify-center h-32">
           <a href="#">
-            <img
-              width="100"
-              height="100"
-              className=" rounded-full border-2 border-gray-900"
+            <h3
+              class={header ? 'h3 active' : 'h3'}
+              className="md:visible sm:hidden hidden sd:w-0 sd:h-0 w-24 h-24"
+            >
+              PORTFOLIO
+            </h3>
+            {/* <img
+              className=" rounded-full border-2 border-gray-900 md:visible sm:hidden hidden sd:w-0 sd:h-0 w-24 h-24"
               src="profile.jpg"
               alt="..."
-            />
+            /> */}
           </a>
-          <nav>
-            <ul className="flex flex-row text-white font-semibold">
-              <a href="#">
-                <li className="mr-4">RESUME</li>
+          <nav className="">
+            <ul
+              class={header ? 'ul active' : 'ul'}
+              className="md:-ml-1  bg-red-400"
+            >
+              <a href="https://resume.io/r/8XMj9OEWN">
+                <li className="mx-2">RESUME</li>
               </a>
               <a href="#">
-                <li className="mr-4">ABOUT</li>
+                <li className="mx-2">ABOUT</li>
               </a>
               <a href="#">
-                <li className="mr-4">PROJECTS</li>
+                <li className="mx-2">PROJECTS</li>
               </a>
               <a href="#">
-                <li className="mr-4">CONTACT</li>
+                <li className="mx-2">CONTACT</li>
               </a>
             </ul>
           </nav>
@@ -67,7 +83,7 @@ export default function Home() {
       {/* Main Content */}
       <main className="flex flex-col z-10 bg-gray-100">
         {/* About Section */}
-        <section className="my-14 w-6/12 p-8 rounded-sm shadow-md flex flex-col self-center bg-white">
+        <section className="mt-24 my-14 max-w-screen-md p-8 rounded-sm shadow-md flex flex-col self-center bg-white">
           <img
             width="300"
             height="300"
@@ -75,50 +91,55 @@ export default function Home() {
             src="profile.jpg"
             alt="..."
           />
-          <h2 className="text-4xl my-8 self-center">About Me</h2>
-          <p className=" text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            velit fugiat maxime vitae ea quidem ullam dolorum ut assumenda
-            libero? Dolorem recusandae doloremque aliquid eos odio eveniet
-            corrupti labore rem?
-          </p>
-          <p className="mt-4 text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            velit fugiat maxime vitae ea quidem ullam dolorum ut assumenda
-            libero? Dolorem recusandae doloremque aliquid eos odio eveniet
-            corrupti labore rem?
-          </p>
-          <p className="mt-4 text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            velit fugiat maxime vitae ea quidem ullam dolorum ut assumenda
-            libero? Dolorem recusandae doloremque aliquid eos odio eveniet
-            corrupti labore rem?
-          </p>
+          <h2 className="text-4xl my-8 mb-0 self-center text-center">
+            About Me
+          </h2>
+          <div className="p-6">
+            <p className=" text-lg text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              velit fugiat maxime vitae ea quidem ullam dolorum ut assumenda
+              libero? Dolorem recusandae doloremque aliquid eos odio eveniet
+              corrupti labore rem?
+            </p>
+            <p className="mt-4 text-lg text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              velit fugiat maxime vitae ea quidem ullam dolorum ut assumenda
+              libero? Dolorem recusandae doloremque aliquid eos odio eveniet
+              corrupti labore rem?
+            </p>
+          </div>
         </section>
 
         {/* Portfolio */}
-        <h1 className=" text-6xl self-center font-semibold">Projects</h1>
-        <section className="my-14 w-6/12 p-12  rounded-sm shadow-md flex self-center flex-wrap justify-around bg-white">
-          <div className="w-64 h-64 shadow rounded-sm mb-8 text-center pt-4">
+        <h1 className=" text-6xl mt-8 self-center font-semibold">Projects</h1>
+        <section className="my-14 w-10/12 flex self-center flex-wrap justify-center">
+          <div className="w-64 h-64 shadow rounded-sm m-4 text-center pt-4 bg-white">
             project1
           </div>
-          <div className="w-64 h-64 shadow rounded-sm mb-8 text-center pt-4">
+          <div className="w-64 h-64 shadow rounded-sm m-4 text-center pt-4 bg-white">
             project2
           </div>
-          <div className="w-64 h-64 shadow rounded-sm mb-8 text-center pt-4">
+          <div className="w-64 h-64 shadow rounded-sm m-4 text-center pt-4 bg-white">
             project3
           </div>
-          <div className="w-64 h-64 shadow rounded-sm mb-8 text-center pt-4">
+          <div className="w-64 h-64 shadow rounded-sm m-4 text-center pt-4 bg-white">
             project4
           </div>
-          <div className="w-64 h-64 shadow rounded-sm mb-8 text-center pt-4">
+          <div className="w-64 h-64 shadow rounded-sm m-4 text-center pt-4 bg-white">
             project5
           </div>
-          <div className="w-64 h-64 shadow rounded-sm mb-8 text-center pt-4">
+          <div className="w-64 h-64 shadow rounded-sm m-4 text-center pt-4 bg-white">
             project6
           </div>
         </section>
       </main>
+
+      {/* Footer */}
+      <footer className="w-full bg-blue-600 z-10">
+        <h2 className="text-white text-xl text-center py-12">
+          Copyright © {new Date().getFullYear()} Joel Adving
+        </h2>
+      </footer>
     </div>
   )
 }

@@ -11,7 +11,6 @@ const Meta = () => {
         content="A portfolio showcasing my work as a developer"
       />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="robots" content="all" />
     </Head>
   )
 }

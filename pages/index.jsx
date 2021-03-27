@@ -10,7 +10,16 @@ import Contact from './components/Contact'
 export default function Home() {
   return (
     <>
-      <Meta />
+      <Head>
+        <html lang="en-us" />
+        <title>Joel Adving</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta
+          name="description"
+          content="Joel Adving - portfolio - front end developer"
+        />
+      </Head>
       <main className="flex flex-col bg-main-black">
         <Background />
         <Header />

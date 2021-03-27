@@ -12,14 +12,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <html lang="en-us" />
-        <title>Joel Adving</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta
           name="description"
-          content="Joel Adving - portfolio - front end developer"
+          content="My front end development portfolio."
         />
+        <meta name="robots" content="index, follow" />
+        <title>Joel Adving</title>
       </Head>
       <main className="flex flex-col bg-main-black">
         <Background />

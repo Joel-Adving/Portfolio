@@ -36,30 +36,43 @@ const Header = () => {
         </a>
         <nav className="flex self-center">
           <ul class={header ? 'ul active' : 'ul'} className="md:-ml-1">
-            <a
-              className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
-              href="https://resume.io/r/8XMj9OEWN"
-            >
-              <li className="mx-2">RESUME</li>
-            </a>
-            <a
-              className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
-              href="#"
-            >
-              <li className="mx-2">ABOUT</li>
-            </a>
-            <a
-              className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
-              href="#"
-            >
-              <li className="mx-2">PROJECTS</li>
-            </a>
-            <a
-              className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
-              href="#"
-            >
-              <li className="mx-2">CONTACT</li>
-            </a>
+            <li className="mx-2">
+              <a
+                className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
+                href="https://resume.io/r/8XMj9OEWN"
+              >
+                RESUME
+              </a>
+            </li>
+
+            <li className="mx-2">
+              <a
+                className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
+                href="#"
+              >
+                ABOUT
+              </a>
+            </li>
+
+            <li className="mx-2">
+              <a
+                className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
+                href="#"
+              >
+                {' '}
+                PROJECTS{' '}
+              </a>
+            </li>
+
+            <li className="mx-2">
+              <a
+                className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
+                href="#"
+              >
+                {' '}
+                CONTACT
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

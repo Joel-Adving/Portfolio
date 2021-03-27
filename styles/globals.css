@@ -20,7 +20,7 @@ header {
 }
 
 header.active {
-  @apply bg-white;
+  @apply bg-discordTheme-darkest;
   @apply ease-in;
 }
 
@@ -33,7 +33,7 @@ ul {
 }
 
 ul.active {
-  @apply text-black;
+  @apply text-main-white;
 }
 
 h3 {
@@ -44,5 +44,5 @@ h3 {
 }
 
 h3.active {
-  @apply text-black;
+  @apply text-main-white;
 }

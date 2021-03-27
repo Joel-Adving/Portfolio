@@ -1,0 +1,44 @@
+const Contact = () => {
+  return (
+    <div className="flex flex-col z-10 px-4 bg-discordTheme py-32 items-center ">
+      <h1 className="self-center text-5xl font-semibold pb-14 text-main-white">
+        CONTACT
+      </h1>
+      <p className=" text-main-primary mb-10 text-center ">
+        Have a question or want to work together?
+      </p>
+      <form className="flex flex-col w-full sm:w-3/12">
+        <input
+          placeholder="Name"
+          type="text"
+          name="name"
+          id="name"
+          className="mb-1 bg-discordTheme-darkest p-2 px-4 text-main-white "
+        />
+        <input
+          placeholder="Enter Email"
+          type="email"
+          name="email"
+          id=""
+          className="mb-1 bg-discordTheme-darkest p-2 px-4 text-main-white"
+        />
+        <textarea
+          placeholder="Your message"
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          className="mb-1 bg-discordTheme-darkest p-2 px-4 text-main-white"
+        ></textarea>
+        <button
+          type="submit"
+          className="border-main-white border-solid border-2 text-main-white p-2"
+        >
+          SUBMIT
+        </button>
+      </form>
+    </div>
+  )
+}
+
+export default Contact

@@ -30,23 +30,35 @@ const Header = () => {
             className=" rounded-full w-10 h-10 sm:w-14 sm:h-14 ml-1"
             src="profile.jpg"
             alt="..."
+            height="10"
+            width="10"
           />
         </a>
         <nav className="flex self-center">
           <ul class={header ? 'ul active' : 'ul'} className="md:-ml-1">
-            <a href="https://resume.io/r/8XMj9OEWN">
-              <li className="mx-2 hover:text-discordTheme-lightest">RESUME</li>
+            <a
+              className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
+              href="https://resume.io/r/8XMj9OEWN"
+            >
+              <li className="mx-2">RESUME</li>
             </a>
-            <a href="#">
-              <li className="mx-2 hover:text-discordTheme-lightest">ABOUT</li>
+            <a
+              className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
+              href="#"
+            >
+              <li className="mx-2">ABOUT</li>
             </a>
-            <a href="#">
-              <li className="mx-2 hover:text-discordTheme-lightest">
-                PROJECTS
-              </li>
+            <a
+              className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
+              href="#"
+            >
+              <li className="mx-2">PROJECTS</li>
             </a>
-            <a href="#">
-              <li className="mx-2 hover:text-discordTheme-lightest">CONTACT</li>
+            <a
+              className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
+              href="#"
+            >
+              <li className="mx-2">CONTACT</li>
             </a>
           </ul>
         </nav>

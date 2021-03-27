@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Background from './components/Background'
 import Meta from './components/Meta'
 import Contact from './components/Contact'
+import Head from 'next/head'
 
 export default function Home() {
   return (

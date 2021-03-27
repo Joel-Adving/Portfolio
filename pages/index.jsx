@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Meta from './components/Meta'
+import Head from 'next/head'
 
 export default function Home() {
   const [header, setHeader] = useState(false)
@@ -18,13 +18,15 @@ export default function Home() {
 
   return (
     <>
-      <Meta
-        title="Joel Adving"
-        desc="Portfolio showcaseing my work"
-        canonical="https://portfolio-v3-git-dev-joel-adving.vercel.app/"
-        css="/static/css/styles.css"
-        js="/static/js/scripts.js"
-      />
+      <Head>
+        <title>Joel Adving</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta
+          name="description"
+          content="A portfolio showcasing my work as a developer"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
 
       <div className="flex flex-col bg-black">
         {/* Background Video*/}

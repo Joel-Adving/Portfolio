@@ -26,6 +26,7 @@ export default function Home() {
           content="A portfolio showcasing my work as a developer"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="all" />
       </Head>
 
       <div className="flex flex-col bg-black">

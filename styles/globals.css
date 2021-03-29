@@ -10,18 +10,40 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.underline {
+  text-decoration-color: blue;
+}
+
 header {
   z-index: 20;
-  display: flex;
-  position: fixed;
   width: 100%;
-  top: 0;
   justify-content: center;
+  background-color: rgba(32, 34, 37, var(--tw-bg-opacity));
+  display: flex;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  align-self: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 6rem 0;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  /* self-center text-5xl font-semibold my-20 md:my-28 underline */
+}
+
+.about.active {
+  @apply mt-48;
 }
 
 header.active {
   @apply bg-discordTheme-darkest;
   @apply ease-in;
+  @apply text-main-white;
+  position: fixed;
+  top: 0;
 }
 
 ul {

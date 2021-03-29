@@ -23,8 +23,8 @@ export default function Home() {
       </Head>
       <main className="flex flex-col bg-main-black">
         <Background />
-        <Header />
         <Hero />
+        <Header />
         <About />
         <Projects />
         <Contact />

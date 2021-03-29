@@ -1,13 +1,13 @@
 const Contact = () => {
   return (
-    <div className="flex flex-col z-10 px-4 bg-discordTheme py-32 items-center ">
-      <h1 className="self-center text-5xl font-semibold pb-14 text-main-white">
+    <div className="flex flex-col z-10 px-4 bg-discordTheme py-12 md:py-28 items-center ">
+      <h1 className="self-center text-5xl font-semibold mb-6 md:mb-14 text-main-white">
         CONTACT
       </h1>
       <p className=" text-main-primary mb-10 text-center ">
         Have a question or want to work together?
       </p>
-      <form className="flex flex-col w-full sm:w-3/12">
+      <form className="flex flex-col w-full md:w-6/12 lg:w-4/12">
         <input
           placeholder="Name"
           type="text"

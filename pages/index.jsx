@@ -9,9 +9,16 @@ import Contact from './components/Contact'
 import Head from 'next/head'
 
 export default function Home() {
+  const language
+  switch (language) {
+    case en:
+      document.documentElement.lang = 'en-us'
+      break
+  }
   return (
     <>
       <Head>
+        <html lang="en" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta

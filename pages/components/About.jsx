@@ -71,55 +71,105 @@ const About = () => {
               <div className="mt-2">Languages and Frameworks:</div>
               <div className="flex flex-wrap w-7/12 md:w-10/12 justify-center md:justify-start">
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="svg/html5.svg" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="svg/html5.svg"
+                  />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="svg/css.svg" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="svg/css.svg"
+                  />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="svg/js.svg" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="svg/js.svg"
+                  />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="svg/ts.svg" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="svg/ts.svg"
+                  />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="svg/react.svg" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="svg/react.svg"
+                  />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="svg/tailwind.svg" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="svg/tailwind.svg"
+                  />
                   <div></div>
                 </div>
 
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="next.png" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="next.png"
+                  />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="svg/node.svg" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="svg/node.svg"
+                  />
                   <div></div>
                 </div>
               </div>
               <div className="mt-8 md:mt-4 flex ">Tools and IDEs:</div>
               <div className="flex flex-wrap self-center w-7/12 md:w-full justify-center md:justify-start">
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="git.png" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="git.png"
+                  />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="vscode.png" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="vscode.png"
+                  />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center justify-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="svg/firebase.svg" />
+                  <img
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="svg/firebase.svg"
+                  />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
-                  <img className="h-12 w-12" src="androidStudio.png" />
+                  <img
+                    height="48"
+                    width="48"
+                    alt="Tech stack images"
+                    className="h-12 w-12"
+                    src="androidStudio.png"
+                  />
                   <div></div>
                 </div>
               </div>

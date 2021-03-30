@@ -1,4 +1,4 @@
-import ProjectCard from './common/ProjectCard'
+import ProjectCard from "./components/ProjectCard.js"
 
 const Projects = () => {
   return (

@@ -1,11 +1,10 @@
-import Projects from './components/projects'
-import Footer from './components/Footer'
-import About from './components/About'
-import Hero from './components/Hero'
-import Header from './components/Header'
-import Background from './components/Background'
-import Meta from './components/Meta'
-import Contact from './components/Contact'
+import Background from "../components/Background"
+import Hero from "../components/Hero"
+import Header from "../components/Header"
+import About from "../components/About"
+import Contact from "../components/Contact"
+import Footer from "../components/Footer"
+import Projects from "../components/Projects"
 import Head from 'next/head'
 
 export default function Home() {
@@ -23,6 +22,7 @@ export default function Home() {
         <title>Joel Adving</title>
       </Head>
       <main className="flex flex-col bg-main-black overflow-x-hidden">
+
         <Background />
         <Hero />
         <Header />
@@ -30,6 +30,13 @@ export default function Home() {
         <Projects />
         <Contact />
         <Footer />
+        {/* <Background />
+        <Hero />
+        <Header />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer /> */}
       </main>
     </>
   )

@@ -9,12 +9,6 @@ import Contact from './components/Contact'
 import Head from 'next/head'
 
 export default function Home() {
-  const language
-  switch (language) {
-    case en:
-      document.documentElement.lang = 'en-us'
-      break
-  }
   return (
     <>
       <Head>

@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <title>Joel Adving</title>
       </Head>
-      <main className="flex flex-col bg-main-black">
+      <main className="flex flex-col bg-main-black overflow-x-hidden">
         <Background />
         <Hero />
         <Header />

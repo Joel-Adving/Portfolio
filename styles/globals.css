@@ -21,6 +21,7 @@ header {
   background-color: rgba(32, 34, 37, var(--tw-bg-opacity));
   display: flex;
   align-items: center;
+  border-bottom: 4px solid #08d9d6;
 }
 
 .about {

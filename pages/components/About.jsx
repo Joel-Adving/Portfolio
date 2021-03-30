@@ -72,48 +72,60 @@ const About = () => {
               <div className="flex flex-wrap w-7/12 md:w-10/12 justify-center md:justify-start">
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="svg/html5.svg"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="svg/css.svg"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="svg/js.svg"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="svg/ts.svg"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="svg/react.svg"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="svg/tailwind.svg"
                   />
                   <div></div>
@@ -121,16 +133,20 @@ const About = () => {
 
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="next.png"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="svg/node.svg"
                   />
                   <div></div>
@@ -140,24 +156,30 @@ const About = () => {
               <div className="flex flex-wrap self-center w-7/12 md:w-full justify-center md:justify-start">
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="git.png"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="vscode.png"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center justify-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
+                    className=""
                     src="svg/firebase.svg"
                   />
                   <div></div>

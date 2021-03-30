@@ -2,7 +2,7 @@ import ProjectCard from './common/ProjectCard'
 
 const Projects = () => {
   return (
-    <section className="flex flex-col z-10 px-4 bg-offWhite md:pb-44">
+    <section className="flex flex-col z-10 px-4 bg-offWhite pb- md:pb-44">
       <div className=" max-w-6xl flex flex-col self-center">
         <h1 className=" text-5xl my-16  md:my-24 self-center font-semibold text-main-black underline">
           PROJECTS

@@ -72,48 +72,54 @@ const About = () => {
               <div className="flex flex-wrap w-7/12 md:w-10/12 justify-center md:justify-start">
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="svg/html5.svg"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="svg/css.svg"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="svg/js.svg"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="svg/ts.svg"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="svg/react.svg"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="svg/tailwind.svg"
                   />
                   <div></div>
@@ -121,16 +127,18 @@ const About = () => {
 
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="next.png"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="svg/node.svg"
                   />
                   <div></div>
@@ -140,24 +148,27 @@ const About = () => {
               <div className="flex flex-wrap self-center w-7/12 md:w-full justify-center md:justify-start">
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="git.png"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="vscode.png"
                   />
                   <div></div>
                 </div>
                 <div className=" flex flex-row items-center justify-center mx-2 mt-4">
                   <img
+                    height="48"
+                    width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="svg/firebase.svg"
                   />
                   <div></div>
@@ -167,7 +178,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-                    className="h-12 w-12"
                     src="androidStudio.png"
                   />
                   <div></div>

@@ -7,9 +7,9 @@ const Hero = () => {
         <h1 className="flex self-center text-5xl text-center flex-col sm:flex-row">
           Hello, I'm<span className="text-main-primary ml-4">Joel Adving.</span>
         </h1>
-        <p className="flex self-center text-3xl text-center mt-4 mx-12">
+        <h2 className="flex self-center text-3xl text-center mt-4 mx-12">
           {"I'm a <Front End Developer/>"}
-        </p>
+        </h2>
         <button className="rounded bg-discordTheme-dark text-main-white w-32 p-2 mt-6 self-center text-lg hover:bg-discordTheme-darkest hover:text-discordTheme-lightest">
           My Projects
         </button>

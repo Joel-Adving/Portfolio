@@ -1,9 +1,9 @@
 const Contact = () => {
   return (
     <div className="flex flex-col z-10 px-4 bg-discordTheme py-12 md:py-28 items-center ">
-      <h1 className="self-center text-5xl font-semibold mb-6 md:mb-14 text-main-white">
+      <h2 className="self-center text-5xl font-semibold mb-6 md:mb-14 text-main-white">
         CONTACT
-      </h1>
+      </h2>
       <p className=" text-main-primary mb-10 text-center ">
         Have a question or want to work together?
       </p>

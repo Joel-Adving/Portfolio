@@ -65,9 +65,9 @@ const About = () => {
               </p>
             </div>
             <div className="mt-20 sm:mt-0 md:w-4/12 flex flex-col items-center md:items-start">
-              <h1 className="mb-6 font-semibold text-3xl">
+              <h2 className="mb-6 font-semibold text-3xl">
                 Current Tech Stack
-              </h1>
+              </h2>
               <div className="mt-2">Languages and Frameworks:</div>
               <div className="flex flex-wrap w-7/12 md:w-10/12 justify-center md:justify-start">
                 <div className=" flex flex-row items-center mx-2 mt-4">
@@ -75,10 +75,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="svg/html5.svg"
                   />
                   <div></div>
@@ -88,10 +84,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="svg/css.svg"
                   />
                   <div></div>
@@ -101,10 +93,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="svg/js.svg"
                   />
                   <div></div>
@@ -114,10 +102,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="svg/ts.svg"
                   />
                   <div></div>
@@ -127,10 +111,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="svg/react.svg"
                   />
                   <div></div>
@@ -140,10 +120,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="svg/tailwind.svg"
                   />
                   <div></div>
@@ -154,10 +130,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="next.png"
                   />
                   <div></div>
@@ -167,10 +139,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="svg/node.svg"
                   />
                   <div></div>
@@ -183,10 +151,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="git.png"
                   />
                   <div></div>
@@ -196,10 +160,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="vscode.png"
                   />
                   <div></div>
@@ -209,10 +169,6 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-<<<<<<< HEAD
-                    className=""
-=======
->>>>>>> dev
                     src="svg/firebase.svg"
                   />
                   <div></div>

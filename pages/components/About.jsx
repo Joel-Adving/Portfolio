@@ -162,7 +162,7 @@ const About = () => {
                   />
                   <div></div>
                 </div>
-                <div className=" flex flex-row items-center mx-2 mt-4">
+                {/* <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
                     height="48"
                     width="48"
@@ -171,7 +171,7 @@ const About = () => {
                     src="androidStudio.png"
                   />
                   <div></div>
-                </div>
+                </div> */}
               </div>
               {/* <div className=" mb-3 p-1 bg-main-primary rounded">
                 CSS3 - HTML5

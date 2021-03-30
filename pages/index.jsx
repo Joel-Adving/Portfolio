@@ -4,7 +4,6 @@ import About from './components/About'
 import Hero from './components/Hero'
 import Header from './components/Header'
 import Background from './components/Background'
-import Meta from './components/Meta'
 import Contact from './components/Contact'
 import Head from 'next/head'
 
@@ -12,7 +11,6 @@ export default function Home() {
   return (
     <>
       <Head>
-        <html lang="en" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta

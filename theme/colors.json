@@ -1,0 +1,36 @@
+{
+  "primary": {
+    "color": "#08d9d6"
+  },
+  "primary_variant": {
+    "color": ""
+  },
+  "secondary": {
+    "color": "#ff2e63"
+  },
+  "secondary_variant": {
+    "color": ""
+  },
+  "background": {
+    "color": "#222831"
+  },
+  "background_variant": {
+    "color": ""
+  },
+  "black": {
+    "color": "#000"
+  },
+  "white": {
+    "color": "#fff"
+  },
+  "main_theme": {
+    "darkest": "#202225",
+    "dark": "#292b2f",
+    "DEFAULT": "#2f3136",
+    "light": "#36393f",
+    "lightest": "#8e9297"
+  },
+  "success": "#43b581",
+  "offline": "#747474",
+  "warning": "#f04747"
+}

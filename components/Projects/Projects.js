@@ -9,9 +9,9 @@ const Projects = () => {
         </h1>
         <div className="flex flex-col md:flex-row flex-wrap items-center justify-center max-w-xl">
           {/* <div className="flex flex-wrap justify-center self-center mb-4"> */}
-          <ProjectCard img="netflix.png" />
-          <ProjectCard img="chat.png" />
-          <ProjectCard img="quire.png" />
+          <ProjectCard title="Netflix UI" img="images/netflix.png" description="Lorem aoiwdjaiuwdiuawhdiuwh"/>
+          <ProjectCard title="Live Chat" img="images/chat.png" description="Lorem aoiwdjaiuwdiuawhdiuwh"/>
+          <ProjectCard title="Deocument Text Edtior " img="images/quire.png" description="Lorem aoiwdjaiuwdiuawhdiuwh"/>
         </div>
       </div>
     </section>

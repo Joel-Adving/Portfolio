@@ -52,7 +52,7 @@ const About = () => {
                 width="250"
                 height="250"
                 className=" rounded-full self-center"
-                src="profile.jpg"
+                src="images/profile.jpg"
                 alt="..."
               />
               <h2 className="text-center font-semibold text-3xl py-10 mx-4   md:py-4  md:mx-4">
@@ -130,7 +130,7 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-                    src="next.png"
+                    src="images/next.png"
                   />
                   <div></div>
                 </div>
@@ -151,7 +151,7 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-                    src="git.png"
+                    src="images/git.png"
                   />
                   <div></div>
                 </div>
@@ -160,7 +160,7 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-                    src="vscode.png"
+                    src="images/vscode.png"
                   />
                   <div></div>
                 </div>
@@ -178,7 +178,7 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-                    src="androidStudio.png"
+                    src="images/androidStudio.png"
                   />
                   <div></div>
                 </div>

@@ -11,7 +11,7 @@ body {
 }
 
 .underline {
-  text-decoration-color: blue;
+  text-decoration-color: #08d9d6;
 }
 
 header {
@@ -31,7 +31,7 @@ header {
   font-weight: 600;
   margin: 6rem 0;
   text-decoration: underline;
-  text-decoration-color: blue;
+  text-decoration-color: #08d9d6;
   /* self-center text-5xl font-semibold my-20 md:my-28 underline */
 }
 

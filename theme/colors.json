@@ -1,28 +1,9 @@
 {
-  "primary": {
-    "color": "#08d9d6"
-  },
-  "primary_variant": {
-    "color": ""
-  },
-  "secondary": {
-    "color": "#ff2e63"
-  },
-  "secondary_variant": {
-    "color": ""
-  },
-  "background": {
-    "color": "#222831"
-  },
-  "background_variant": {
-    "color": ""
-  },
-  "black": {
-    "color": "#000"
-  },
-  "white": {
-    "color": "#fff"
-  },
+  "primary": "#08d9d6",
+  "secondary": "#ff2e63",
+  "background": "#222831",
+  "black": "#000",
+  "white": "#fff",
   "main_theme": {
     "darkest": "#202225",
     "dark": "#292b2f",
@@ -32,5 +13,8 @@
   },
   "success": "#43b581",
   "offline": "#747474",
-  "warning": "#f04747"
+  "warning": "#f04747",
+  "gray1": "#181a1b",
+  "gray2": "#f04747",
+  "text-offwhite": "#f04747"
 }

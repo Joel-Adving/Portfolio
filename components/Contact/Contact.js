@@ -32,7 +32,7 @@ const Contact = () => {
         ></textarea>
         <button
           type="submit"
-          className="border-main-white border-solid border-2 text-main-white p-2"
+          className=" border-main-primary border-solid border-2 text-main-primary  p-2"
         >
           SUBMIT
         </button>

@@ -10,9 +10,9 @@ const ProjectCard = (props) => {
           wdith="auto"
         />
       </a>
-      <div className=" text-xl">{props.title}</div>
-      <div className="flex flex-row justify-between items-center">
-        <div>{props.description}</div>
+      <div className="mt-2 text-xl">{props.title}</div>
+      <div className="flex flex-row justify-between">
+        <div className="flex items-end">{props.description}</div>
         <a href={props.githubLink}>
           <img
             src="images/github.png"

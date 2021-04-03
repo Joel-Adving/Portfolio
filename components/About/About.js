@@ -16,7 +16,7 @@ const About = () => {
 
   return (
     <>
-      <section className="flex flex-col z-10 px-4 bg-main-white pb-32">
+      <section className="flex flex-col z-10 px-4 s pb-32 text-main-white bg-discordTheme-dark">
         <div className=" max-w-6xl flex flex-col self-center">
           <h2 class={about ? 'about active' : 'about'} className="">
             ABOUT
@@ -52,7 +52,7 @@ const About = () => {
                 width="250"
                 height="250"
                 className=" rounded-full self-center"
-                src="profile.jpg"
+                src="images/profile.jpg"
                 alt="..."
               />
               <h2 className="text-center font-semibold text-3xl py-10 mx-4   md:py-4  md:mx-4">
@@ -130,7 +130,7 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-                    src="next.png"
+                    src="images/next.png"
                   />
                   <div></div>
                 </div>
@@ -151,7 +151,7 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-                    src="git.png"
+                    src="images/git.png"
                   />
                   <div></div>
                 </div>
@@ -160,7 +160,7 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-                    src="vscode.png"
+                    src="images/vscode.png"
                   />
                   <div></div>
                 </div>
@@ -178,35 +178,11 @@ const About = () => {
                     height="48"
                     width="48"
                     alt="Tech stack images"
-                    src="androidStudio.png"
+                    src="images/androidStudio.png"
                   />
                   <div></div>
                 </div> */}
               </div>
-              {/* <div className=" mb-3 p-1 bg-main-primary rounded">
-                CSS3 - HTML5
-              </div>
-              <div className=" mb-3 p-1 bg-main-primary rounded">
-                JavaScript - TypeScript
-              </div>
-              <div className=" mb-3 p-1 bg-main-primary rounded">
-                React - Next - Gatsby - React Native
-              </div>
-              <div className=" mb-3 p-1 bg-main-primary rounded">
-                StyledComponents - css modules - Tailwindcss
-              </div>
-              <div className=" mb-3 p-1 bg-main-primary rounded">
-                Node - Express - MongoDB
-              </div>
-              <div className=" mb-3 p-1 bg-main-primary rounded">
-                Vercel - Netlify
-              </div>
-              <div className=" mb-3 p-1 bg-main-primary rounded">
-                Firebase - AWS
-              </div>
-              <div className=" mb-3 p-1 bg-main-primary rounded">
-                Version control - Git & GitHub
-              </div> */}
             </div>
           </div>
         </div>

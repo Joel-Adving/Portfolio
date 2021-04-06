@@ -22,6 +22,7 @@ const Header = () => {
         <ul class={header ? 'ul active' : 'ul'} className="md:-ml-1">
           <li className="mx-2">
             <a
+              rel="noreferrer"
               target="_blank"
               className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
               href="https://drive.google.com/file/d/19OCuRUOowrcfMhwulT3EdU0zkLc0GjTF/view?usp=sharing"

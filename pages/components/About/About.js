@@ -173,7 +173,7 @@ const About = () => {
                   />
                   <div></div>
                 </div>
-                {/* <div className=" flex flex-row items-center mx-2 mt-4">
+                <div className=" flex flex-row items-center mx-2 mt-4">
                   <img
                     height="48"
                     width="48"
@@ -181,7 +181,7 @@ const About = () => {
                     src="images/androidStudio.png"
                   />
                   <div></div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

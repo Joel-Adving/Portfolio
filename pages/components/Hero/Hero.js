@@ -10,9 +10,11 @@ const Hero = () => {
         <h2 className="flex self-center text-3xl text-center mt-4 mx-12">
           {"I'm a <Front End Developer/>"}
         </h2>
-        <button className="rounded bg-discordTheme-dark text-main-white w-32 p-2 mt-6 self-center text-lg hover:bg-discordTheme-darkest hover:text-discordTheme-lightest">
-          My Projects
-        </button>
+        <a href="#about" className="self-center ">
+          <button className="rounded bg-discordTheme-dark text-main-white p-2 px-4 mt-6 text-lg hover:bg-discordTheme-darkest hover:text-discordTheme-lightest">
+            View My Work
+          </button>
+        </a>
       </section>
     </>
   )

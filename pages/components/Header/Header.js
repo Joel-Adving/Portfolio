@@ -22,6 +22,7 @@ const Header = () => {
         <ul class={header ? 'ul active' : 'ul'} className="md:-ml-1">
           <li className="mx-2">
             <a
+              target="_blank"
               className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
               href="https://drive.google.com/file/d/1gIvQcijLPYDNb6eMpXggHow_l0weK-BE/view"
             >
@@ -32,7 +33,7 @@ const Header = () => {
           <li className="mx-2">
             <a
               className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
-              href="#"
+              href="#about"
             >
               ABOUT
             </a>
@@ -41,7 +42,7 @@ const Header = () => {
           <li className="mx-2">
             <a
               className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
-              href="#"
+              href="#projects"
             >
               {' '}
               PROJECTS{' '}
@@ -51,7 +52,7 @@ const Header = () => {
           <li className="mx-2">
             <a
               className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
-              href="#"
+              href="#contact"
             >
               {' '}
               CONTACT

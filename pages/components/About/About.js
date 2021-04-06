@@ -16,7 +16,10 @@ const About = () => {
 
   return (
     <>
-      <section className="flex flex-col z-10 px-4 s pb-32 text-main-white bg-discordTheme-dark">
+      <section
+        id="about"
+        className="flex flex-col z-10 px-4 pb-32 text-main-white bg-discordTheme-dark"
+      >
         <div className=" max-w-6xl flex flex-col self-center">
           <h2 class={about ? 'about active' : 'about'} className="">
             ABOUT
@@ -186,6 +189,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div id="projects" className=""></div>
       </section>
     </>
   )

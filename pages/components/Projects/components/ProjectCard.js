@@ -3,7 +3,7 @@ const ProjectCard = (props) => {
     <div className="m-4">
       <a href={props.link}>
         <img
-          className=" max-w-sm"
+          className=" md:max-w-sm"
           src={props.img}
           alt=""
           height="auto"

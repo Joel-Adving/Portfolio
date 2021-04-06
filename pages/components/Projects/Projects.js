@@ -2,9 +2,12 @@ import ProjectCard from './components/ProjectCard.js'
 
 const Projects = () => {
   return (
-    <section className="flex flex-col z-10 px-4 bg-discordTheme-light md:pb-36 text-main-white">
+    <section
+      // id="projects"
+      className="flex flex-col z-10 px-4 bg-discordTheme-light pb-24 md:pb-44 text-main-white"
+    >
       <div className="flex flex-col self-center">
-        <h1 className=" text-5xl my-16  md:my-24 self-center font-semibold text-main-white">
+        <h1 className=" text-5xl my-16  md:my-32 self-center font-semibold text-main-white">
           PROJECTS
         </h1>
         <div className="flex flex-col lg:flex-row flex-wrap items-center justify-center">

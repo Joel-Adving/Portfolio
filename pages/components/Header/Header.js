@@ -33,6 +33,7 @@ const Header = () => {
 
           <li className="mx-2">
             <a
+              rel="noreferrer"
               className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
               href="#about"
             >

@@ -12,8 +12,8 @@ const ProjectCard = (props) => {
       </a>
       <div className="mt-2 text-xl">{props.title}</div>
       <div className="flex flex-row justify-between">
-        <div className="flex items-end">{props.description}</div>
-        <a href={props.githubLink}>
+        <div className="flex items-center">{props.description}</div>
+        <a href={props.githubLink} className="text-xs text-transparent">
           <img
             src="images/github.png"
             height="32"
@@ -21,6 +21,7 @@ const ProjectCard = (props) => {
             className="bg-main-white rounded-full border-main-primary border-2"
             alt="Github icon"
           />
+          .
         </a>
       </div>
     </div>

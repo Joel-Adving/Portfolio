@@ -24,7 +24,7 @@ const Header = () => {
             <a
               target="_blank"
               className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
-              href="https://drive.google.com/file/d/1gIvQcijLPYDNb6eMpXggHow_l0weK-BE/view"
+              href="https://drive.google.com/file/d/19OCuRUOowrcfMhwulT3EdU0zkLc0GjTF/view?usp=sharing"
             >
               RESUME
             </a>

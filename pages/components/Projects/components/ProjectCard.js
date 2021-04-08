@@ -12,16 +12,15 @@ const ProjectCard = (props) => {
         {props.title}
       </a>
       <div className="flex flex-row justify-between">
-        <div className="flex items-center">{props.description}</div>
-        <a href={props.githubLink} className=" text-xs text-transparent">
+        <div className="flex ">{props.description}</div>
+        <a href={props.githubLink} className=" flex self-center ">
           <img
             src="images/github.png"
             height="32"
             width="32"
-            className=" bg-main-white rounded-full border-main-primary border-2"
+            className="bg-main-white rounded-full border-main-primary border-2"
             alt="Github icon"
           />
-          Link
         </a>
       </div>
     </div>

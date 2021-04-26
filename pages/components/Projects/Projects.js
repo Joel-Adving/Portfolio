@@ -13,7 +13,7 @@ const Projects = () => {
         <div className="flex flex-col lg:flex-row flex-wrap items-center justify-center">
           {/* <div className="flex flex-wrap justify-center self-center mb-4"> */}
           <ProjectCard
-            link="#"
+            link="https://netflix-clone-six-zeta.vercel.app/"
             title="Netflix UI"
             img="images/netflix.png"
             description="React and movie database API"
@@ -27,7 +27,7 @@ const Projects = () => {
             githubLink="https://github.com/Joel-Adving/chat-room"
           />
           <ProjectCard
-            link="#"
+            link="https://quire.vercel.app/"
             title="Text Edtior "
             img="images/quire.png"
             description="Vanilla js and local storage"

@@ -69,3 +69,8 @@ h3 {
 h3.active {
   @apply text-main-white;
 }
+
+.git__hub__icon {
+  max-width: 32px;
+  max-height: 32px;
+}

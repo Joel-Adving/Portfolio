@@ -1,4 +1,4 @@
-const ProjectCard = (props) => {
+const ProjectCard = props => {
   return (
     <div className="m-4">
       <a className="mt-2 text-xl" href={props.link}>
@@ -13,12 +13,10 @@ const ProjectCard = (props) => {
       </a>
       <div className="flex flex-row justify-between">
         <div className="flex ">{props.description}</div>
-        <a href={props.githubLink} className=" flex self-center ">
+        <a href={props.githubLink} className="git__hub__icon flex self-center ">
           <img
             src="images/github.png"
-            height="32"
-            width="32"
-            className="bg-main-white rounded-full border-main-primary border-2"
+            className="git__hub__icon bg-main-white rounded-full border-main-primary border-2"
             alt="Github icon"
           />
         </a>

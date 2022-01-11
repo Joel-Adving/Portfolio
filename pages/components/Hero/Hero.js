@@ -8,7 +8,7 @@ const Hero = () => {
           Hello, I'm<span className="text-main-primary ml-4">Joel Adving.</span>
         </h1>
         <h2 className="flex self-center text-3xl text-center mt-4 mx-12">
-          {"I'm a <Front End Developer/>"}
+          {'<Front End Developer />'}
         </h2>
 
         <a

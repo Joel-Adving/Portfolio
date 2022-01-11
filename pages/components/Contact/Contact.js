@@ -10,24 +10,34 @@ const Contact = () => {
       <p className=" text-main-primary mb-10 text-center ">
         Have a question or want to work together?
       </p>
-      <form className="flex flex-col w-full md:w-6/12 lg:w-4/12">
+
+      <form
+        action="https://formsubmit.co/joel.adving@gmail.com"
+        method="POST"
+        className="flex flex-col w-full md:w-6/12 lg:w-4/12"
+      >
         <input
+          required
           placeholder="Name"
           type="text"
           name="name"
           id="name"
           className="mb-1 bg-discordTheme-darkest p-2 px-4 text-main-white "
         />
+
         <input
-          placeholder="Enter Email"
+          required
+          placeholder="Email"
           type="email"
           name="email"
           id=""
           className="mb-1 bg-discordTheme-darkest p-2 px-4 text-main-white"
         />
+
         <textarea
-          placeholder="Your message"
-          name=""
+          required
+          placeholder="Your message..."
+          name="message"
           id=""
           cols="30"
           rows="10"
@@ -37,7 +47,7 @@ const Contact = () => {
           type="submit"
           className=" border-main-white border-solid border-2 text-main-white p-2"
         >
-          SUBMIT
+          Send
         </button>
       </form>
     </div>

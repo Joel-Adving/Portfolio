@@ -13,24 +13,24 @@ const Projects = () => {
         <div className="flex flex-col lg:flex-row flex-wrap items-center justify-center">
           {/* <div className="flex flex-wrap justify-center self-center mb-4"> */}
           <ProjectCard
-            link="https://netflix-clone-six-zeta.vercel.app/"
-            title="Netflix UI"
-            img="images/netflix.png"
-            description="React and movie database API"
-            githubLink="https://github.com/Joel-Adving/netflix-clone"
+            title="Recipe app"
+            link="https://forkify-black.vercel.app/"
+            img="images/forkify.png"
+            description="Vanilla js, MVC architecture, forkify API"
+            githubLink="https://github.com/Joel-Adving/js_course/tree/main/forkify"
           />
           <ProjectCard
             title="Live Chat"
             link="https://chatroom-app-3f006.web.app/"
             img="images/chat.png"
-            description="React and Firebase"
+            description="React, Firebase"
             githubLink="https://github.com/Joel-Adving/chat-room"
           />
           <ProjectCard
-            link="https://quire.vercel.app/"
             title="Text Edtior "
+            link="https://quire.vercel.app/"
             img="images/quire.png"
-            description="Vanilla js and local storage"
+            description="Vanilla js, local storage, quill"
             githubLink="https://github.com/MarcelR1998/fe19tp1_teamEraser"
           />
         </div>

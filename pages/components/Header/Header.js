@@ -1,25 +1,11 @@
-import { useState, useEffect } from 'react'
-
 const Header = () => {
-  const [header, setHeader] = useState(false)
-  const changeBackground = () => {
-    if (window.scrollY >= 940) {
-      setHeader(true)
-    } else {
-      setHeader(false)
-    }
-  }
-
-  useEffect(() => {
-    window.addEventListener('scroll', changeBackground)
-  }, [])
   return (
     <header
-      className={header ? 'header active' : 'header'}
+      className={'header'}
       className=" hidden sm:flex  invisible sm:visible"
     >
       <nav className="p-8">
-        <ul className={header ? 'ul active' : 'ul'} className="md:-ml-1">
+        <ul className={'ul'} className="md:-ml-1">
           <li className="mx-2">
             <a
               className=" py-3 sm:p-2 hover:text-discordTheme-lightest"

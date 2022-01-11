@@ -29,8 +29,7 @@ const Header = () => {
               className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
               href="#projects"
             >
-              {' '}
-              PROJECTS{' '}
+              PROJECTS
             </a>
           </li>
 

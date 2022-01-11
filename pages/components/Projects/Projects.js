@@ -10,7 +10,7 @@ const Projects = () => {
         <h1 className=" text-5xl my-16  md:my-32 self-center font-semibold text-main-white">
           PROJECTS
         </h1>
-        <div className="flex flex-col lg:flex-row flex-wrap items-center justify-center">
+        <div className="flex flex-col max-w-screen-lg lg:flex-row flex-wrap items-center justify-center">
           {/* <div className="flex flex-wrap justify-center self-center mb-4"> */}
           <ProjectCard
             title="Forkify - recipe app"

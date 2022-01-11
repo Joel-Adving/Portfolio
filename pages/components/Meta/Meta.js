@@ -5,7 +5,7 @@ const Meta = () => {
     <Head>
       <html lang="en-us" />
       <title>Joel Adving</title>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta
         name="description"
         content="A portfolio showcasing my work as a developer"

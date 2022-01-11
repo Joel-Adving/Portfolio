@@ -21,9 +21,7 @@ const About = () => {
         className="flex flex-col z-10 px-4 pb-32 text-main-white bg-discordTheme-dark"
       >
         <div className=" max-w-6xl flex flex-col self-center">
-          <h2 class={about ? 'about active' : 'about'} className="">
-            ABOUT
-          </h2>
+          <h2 className={about ? 'about active' : 'about'}>ABOUT</h2>
           <div>
             <div className="flex flex-col md:flex-row justify-center items-center mb-0 md:mb-8">
               <div>

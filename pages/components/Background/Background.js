@@ -6,7 +6,7 @@ const Background = () => {
       autoPlay
       loop
       muted
-      class="object-cover w-screen h-screen fixed opacity-40"
+      className="object-cover w-screen h-screen fixed opacity-40"
     >
       <source src="videos/background.mp4" type="video/mp4" />
       Your browser does not support the video tag

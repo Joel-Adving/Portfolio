@@ -15,11 +15,11 @@ const Header = () => {
   }, [])
   return (
     <header
-      class={header ? 'header active' : 'header'}
+      className={header ? 'header active' : 'header'}
       className=" hidden sm:flex  invisible sm:visible"
     >
       <nav className="p-8">
-        <ul class={header ? 'ul active' : 'ul'} className="md:-ml-1">
+        <ul className={header ? 'ul active' : 'ul'} className="md:-ml-1">
           <li className="mx-2">
             <a
               className=" py-3 sm:p-2 hover:text-discordTheme-lightest"
